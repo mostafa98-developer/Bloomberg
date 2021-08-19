@@ -1,0 +1,34 @@
+server:
+ port: 8081
+
+spring:
+  data:
+    mongodb:
+      database: admin
+      host: localhost
+      port: 27017
+
+
+security:
+ basic:
+  enable: true
+ 
+logging:
+  file:
+    path: D:/logs/application-debug.log
+level:
+    org.springframework.web: ERROR
+    com.howtodoinjava: DEBUG
+    org.hibernate: ERROR
+#auth:
+# expiration: 604800
+# secret: honeyAPISecret1234
+# header: Authorization
+
+## ThymeLeaf settings
+#spring.thymeleaf.cache=false
+#spring.thymeleaf.check-template=true
+#spring.thymeleaf.check-template-location=true
+#spring.thymeleaf.enabled=true
+#spring.thymeleaf.prefix=classpath:/templates/
+#spring.thymeleaf.suffix=.html

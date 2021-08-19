@@ -1,0 +1,39 @@
+2021-08-19 00:09:53.920  INFO 20360 --- [main] app.SpringApp                            : Starting SpringApp on DESKTOP-0NC2JTD with PID 20360 (C:\Users\User\Desktop\Backend\target\classes started by User in C:\Users\User\Desktop\Backend)
+2021-08-19 00:09:53.923  INFO 20360 --- [main] app.SpringApp                            : No active profile set, falling back to default profiles: default
+2021-08-19 00:09:54.488  INFO 20360 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-19 00:09:54.489  INFO 20360 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-08-19 00:09:54.540  INFO 20360 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44ms. Found 1 MongoDB repository interfaces.
+2021-08-19 00:09:54.728  INFO 20360 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-19 00:09:54.729  INFO 20360 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-08-19 00:09:54.743  INFO 20360 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 JPA repository interfaces.
+2021-08-19 00:09:55.180  INFO 20360 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-08-19 00:09:55.187  INFO 20360 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-19 00:09:55.187  INFO 20360 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-08-19 00:09:55.257  INFO 20360 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-19 00:09:55.258  INFO 20360 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1285 ms
+2021-08-19 00:09:55.371  INFO 20360 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-19 00:09:55.379  INFO 20360 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-19 00:09:55.553  INFO 20360 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-19 00:09:55.611  INFO 20360 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-08-19 00:09:55.710  INFO 20360 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.11.Final}
+2021-08-19 00:09:55.711  INFO 20360 --- [task-1] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-08-19 00:09:55.747  INFO 20360 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-08-19 00:09:55.755  INFO 20360 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2021-08-19 00:09:55.799  INFO 20360 --- [cluster-ClusterId{value='611d7723695fda7601b98a25', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:127}] to localhost:27017
+2021-08-19 00:09:55.803  INFO 20360 --- [cluster-ClusterId{value='611d7723695fda7601b98a25', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2695500}
+2021-08-19 00:09:55.883  INFO 20360 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-19 00:09:56.098  WARN 20360 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-19 00:09:56.156  INFO 20360 --- [task-1] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@665fc155'
+2021-08-19 00:09:56.162  INFO 20360 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-19 00:09:56.419  INFO 20360 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-08-19 00:09:56.420  INFO 20360 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2021-08-19 00:09:56.421  INFO 20360 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2021-08-19 00:09:56.426  INFO 20360 --- [main] app.SpringApp                            : Started SpringApp in 2.963 seconds (JVM running for 3.781)
+2021-08-19 00:10:00.284  INFO 20360 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-19 00:10:00.285  INFO 20360 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-19 00:10:00.289  INFO 20360 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2021-08-19 00:10:00.456  INFO 20360 --- [http-nio-8081-exec-1] todos.TodoController                     : created working !todos.Order@8d0ce6a
+2021-08-19 00:10:00.487  INFO 20360 --- [http-nio-8081-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:128}] to localhost:27017
+2021-08-19 00:10:32.835  INFO 20360 --- [http-nio-8081-exec-2] todos.TodoController                     : created working !todos.Order@6f081c81
